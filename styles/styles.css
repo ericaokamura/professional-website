@@ -12,8 +12,12 @@ header {
     margin-right: 20px;
 }
 
-.nav-link {
-    color: #27828C;
+.nav .nav-item .nav-link {
+    color:#27828C;
+}
+
+.nav .nav-item:hover .nav-link {
+    color: #BF4F36 !important;
 }
 
 .container {
