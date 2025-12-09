@@ -1,7 +1,13 @@
+@font-face {
+    font-family: 'EricaFunFont';
+    src: url('../fonts/Ericafunfont-Regular.woff2') format('woff2');
+    font-weight: normal; 
+    font-style: normal;  
+}
+
+
 * {
-    font-family: "Roboto Mono", serif;
-    font-weight: 700;
-    font-style: normal;
+    font-family: 'EricaFunFont', serif;
     color: #27828C;
 }
 
@@ -35,6 +41,8 @@ header {
 
 p {
     color: #0D0D0D;
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
 }
 
 .skills {
